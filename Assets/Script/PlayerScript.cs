@@ -5,15 +5,15 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     public FloatingJoystick inputMove;   // 左画面JoyStick
-
-    float moveSpeed =  50.0f;   // 移動する速度
+    [SerializeField]
+    float moveSpeed =  0.0f;   // 移動する速度
     float rotateSpeed = 5.0f;   // 回転する速度
 
-    Rigidbody playerRb;  // PlayerのRigidbody
+    Rigidbody2D playerRb;  // PlayerのRigidbody
 
     void Start()
     {
-        playerRb = this.gameObject.GetComponent<Rigidbody>();
+        playerRb = this.gameObject.GetComponent<Rigidbody2D>();
     }
 
     void Update()
