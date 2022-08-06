@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -344,7 +344,10 @@ GameObject:
   m_Component:
   - component: {fileID: 818384606}
   - component: {fileID: 818384605}
+<<<<<<< HEAD
   - component: {fileID: 818384608}
+=======
+>>>>>>> 8164f0aee97e5b003123db42fec180f1f4ca61c7
   - component: {fileID: 818384607}
   m_Layer: 0
   m_Name: Player
@@ -420,6 +423,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!54 &818384607
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -438,17 +442,36 @@ Rigidbody:
   m_CollisionDetection: 0
 --- !u!114 &818384608
 MonoBehaviour:
+=======
+--- !u!95 &818384607
+Animator:
+  serializedVersion: 4
+>>>>>>> 8164f0aee97e5b003123db42fec180f1f4ca61c7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818384604}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76df43894658344b5b907d416d657a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inputMove: {fileID: 178337454}
+=======
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c2c4a34b5b8cb25489630e4bf15559f7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+>>>>>>> 8164f0aee97e5b003123db42fec180f1f4ca61c7
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,6 +640,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &1085144477
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,6 +806,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d230cc8be529a542a08cb878ab14b18, type: 3}
+=======
+>>>>>>> 8164f0aee97e5b003123db42fec180f1f4ca61c7
 --- !u!1 &1393406645
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,5 +838,9 @@ Transform:
   m_Children:
   - {fileID: 990337202}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 3
+=======
+  m_RootOrder: 2
+>>>>>>> 8164f0aee97e5b003123db42fec180f1f4ca61c7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
