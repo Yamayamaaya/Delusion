@@ -339,6 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputMove: {fileID: 1210864547}
+  moveSpeed: 40
 --- !u!114 &818384609
 MonoBehaviour:
   m_ObjectHideFlags: 0
