@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Laser
   - Enemy
+  - Ball
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -51,4 +53,7 @@ TagManager:
     locked: 0
   - name: FurnitureOver
     uniqueID: 1097275561
+    locked: 0
+  - name: UI
+    uniqueID: 1315420435
     locked: 0
