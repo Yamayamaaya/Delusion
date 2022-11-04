@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8329618529554827970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.77, y: -1.146, z: 0}
-  m_LocalScale: {x: 0.42840585, y: 0.42840585, z: 0.42840585}
+  m_LocalScale: {x: 0.30723554, y: 0.30723554, z: 0.30723554}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -136,5 +136,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3cd0a800c4a45a49a0367050c4fd878, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  max: 20
+  spriteRenderer: {fileID: 8329618529554827973}
   array:
   - {fileID: 21300000, guid: fd476363dab77804eb3ffd984b55d823, type: 3}
+  - {fileID: 112248949, guid: 1bb48f58712ca8043bdded07e115cea6, type: 3}
+  - {fileID: 1069911217, guid: 1bb48f58712ca8043bdded07e115cea6, type: 3}
+  - {fileID: -253197388, guid: 1bb48f58712ca8043bdded07e115cea6, type: 3}
+  - {fileID: -1747712011, guid: 1bb48f58712ca8043bdded07e115cea6, type: 3}
+  - {fileID: 21300000, guid: fd476363dab77804eb3ffd984b55d823, type: 3}
+  - {fileID: -2125339793, guid: 1bb48f58712ca8043bdded07e115cea6, type: 3}
+  - {fileID: 1555145213, guid: 1bb48f58712ca8043bdded07e115cea6, type: 3}
+  - {fileID: 21300000, guid: fd476363dab77804eb3ffd984b55d823, type: 3}
+  - {fileID: -262805226, guid: 1bb48f58712ca8043bdded07e115cea6, type: 3}
+  - {fileID: -155137117, guid: 1bb48f58712ca8043bdded07e115cea6, type: 3}
+  - {fileID: 21300000, guid: fd476363dab77804eb3ffd984b55d823, type: 3}
+  - {fileID: 1958887569, guid: 0a41043a0ce012e4082cc21f7c5fb754, type: 3}
+  - {fileID: -2113466476, guid: 0a41043a0ce012e4082cc21f7c5fb754, type: 3}
+  - {fileID: 866336584, guid: 0a41043a0ce012e4082cc21f7c5fb754, type: 3}
+  - {fileID: 442599225, guid: 0a41043a0ce012e4082cc21f7c5fb754, type: 3}
+  - {fileID: 866336584, guid: 0a41043a0ce012e4082cc21f7c5fb754, type: 3}
+  - {fileID: 21300000, guid: fd476363dab77804eb3ffd984b55d823, type: 3}
+  - {fileID: -2113466476, guid: 0a41043a0ce012e4082cc21f7c5fb754, type: 3}
+  - {fileID: -224223369, guid: 1bb48f58712ca8043bdded07e115cea6, type: 3}
