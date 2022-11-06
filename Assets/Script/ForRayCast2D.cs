@@ -16,7 +16,6 @@ public class ForRayCast2D : MonoBehaviour
     {
         if(other.gameObject.tag == "Enemy")
         {
-            Debug.Log("すり抜けた！");
             Destroy(other.gameObject,0.3f);
         }
     }
