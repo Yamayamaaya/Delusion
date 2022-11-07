@@ -28,7 +28,6 @@ public class ItemBox : MonoBehaviour
 
     private void Start()
     {
-        /*this.gameObject.GetComponent<Image>().sprite = spriteAto;*/
         boxs[0].SetActive(false); ItemInBox[0] = 100;
         boxs[1].SetActive(false); ItemInBox[1] = 100;
         boxs[2].SetActive(false); ItemInBox[2] = 100;
@@ -38,13 +37,8 @@ public class ItemBox : MonoBehaviour
         boxs[6].SetActive(false); ItemInBox[6] = 100;
         boxs[7].SetActive(false); ItemInBox[7] = 100;
 
-        //Sprite image = Resources.Load<Sprite>("Images/enemy/enemy000");
-        /*SetItem();
-        UseItem();*/
     }
 
-    // 処理
-    // アイテムがクリックされたときに、そのアイテム画像をBoxに表示する
     public void ReloadBox()
     {
         int a = 0; int b = 7;int c = 0;
@@ -63,7 +57,6 @@ public class ItemBox : MonoBehaviour
             if (boxs[a].activeSelf == true)
             {
                 c = c + 1;
-                Debug.Log("qqq");
             }
 
         a = a + 1;
@@ -82,7 +75,7 @@ public class ItemBox : MonoBehaviour
         ItemBoxUI.SetActive(true);
         ItemBoxButton.instance.SelectItem(index1);
         audioSource.PlayOneShot(ItemSound);
-
+        BoxNumber = BoxNumber + 1;
 
     }
     // アイテムが使えるかどうかを調べる（アイテムBoxに存在するか調べる）
@@ -110,8 +103,7 @@ public class ItemBox : MonoBehaviour
         }
 
     }
-   
-    // アイテムを使うときに、そのアイテム画像をBoxから非表示にする
+
     public void OnItem0() { ItemBoxButton.instance.SelectItem(ItemInBox[0]);  }
     public void OnItem1() { ItemBoxButton.instance.SelectItem(ItemInBox[1]);  }
     public void OnItem2() { ItemBoxButton.instance.SelectItem(ItemInBox[2]);  }
