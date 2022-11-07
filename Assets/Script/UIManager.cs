@@ -21,6 +21,7 @@ public class UIManager : MonoBehaviour
     public void OpenItemBox()
     {
         ItemBox.SetActive(true);
+        
     }
     public void CloseItemBox()
     {
