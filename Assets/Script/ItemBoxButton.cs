@@ -35,7 +35,7 @@ public class ItemBoxButton : MonoBehaviour
         switch (ItemNumbers)
         {
             case 0: Knife(); break;
-            case 1: Kaityuudento(); break;
+            case 1: wateringCan(); break;
             case 2: Key3(); break;
             /* case 4: RoomManagers4(); break;
             case 5: RoomManagers5(); break;
@@ -61,10 +61,10 @@ public class ItemBoxButton : MonoBehaviour
         ItemSelected.gameObject.GetComponent<Image>().sprite = image;
         Log1.SendFungusMessage("Item_0");
     }
-    private void Kaityuudento()
+    private void wateringCan()
     {
         ItemSelected.gameObject.GetComponent<Image>().sprite = image;
-        Log1.SendFungusMessage("Kaityuudento");
+        Log1.SendFungusMessage("Item_1");
     }
     private void Key3()
     {

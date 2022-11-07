@@ -35,7 +35,7 @@ public class Item : MonoBehaviour
     public enum ItemType
     {
         knife,
-        kaityuudento,
+        wateringCan,
         Key3,
     }
     // このアイテムが何なのか
@@ -55,9 +55,7 @@ public class Item : MonoBehaviour
             // アイテムBoxへ追加
             int index = (int)item;
             Debug.Log(index);
-            //ItemBox.instance.ReloadBox();
             ItemBox.instance.SetItem(index);
-            // ・非表示
        
     }
 }

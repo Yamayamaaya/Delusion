@@ -6,6 +6,7 @@ public class FlashlightRotate : MonoBehaviour
 
     // 前フレームのワールド位置
     private Vector3 _prevPosition;
+    Quaternion rotation;
 
     private void Start()
     {
@@ -26,11 +27,10 @@ public class FlashlightRotate : MonoBehaviour
         _prevPosition = position;
 
         // 静止している状態だと、進行方向を特定できないため回転しない
-        if (delta == Vector3.zero)
-            return;
-
-        // 進行方向（移動量ベクトル）に向くようなクォータニオンを取得
-        var rotation = Quaternion.FromToRotation(Vector3.up, delta);
+        if (delta != Vector3.zero){
+            // 進行方向（移動量ベクトル）に向くようなクォータニオンを取得
+            rotation = Quaternion.FromToRotation(Vector3.up, delta);
+        }
 
         // オブジェクトの回転に反映
         _transform.rotation = rotation;
