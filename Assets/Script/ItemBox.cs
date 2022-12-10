@@ -76,7 +76,6 @@ public class ItemBox : MonoBehaviour
         ItemBoxButton.instance.SelectItem(index1);
         audioSource.PlayOneShot(ItemSound);
         BoxNumber = BoxNumber + 1;
-
     }
     // アイテムが使えるかどうかを調べる（アイテムBoxに存在するか調べる）
     public bool CanUseItem()

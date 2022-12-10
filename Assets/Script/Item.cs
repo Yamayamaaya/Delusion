@@ -36,7 +36,15 @@ public class Item : MonoBehaviour
     {
         knife,
         wateringCan,
-        Key3,
+        SuitKey,
+        BreakerKey,
+        illustration1,
+        illustration2,
+        illustration3,
+        scissors,
+        code,
+        memo,
+
     }
     // このアイテムが何なのか
     public ItemType item;
