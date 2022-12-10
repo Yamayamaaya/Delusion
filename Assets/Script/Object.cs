@@ -7,7 +7,7 @@ public class Object : MonoBehaviour
 {
 
     public Image ObjectImage;
-    public Sprite bookshelfImage;
+    public Sprite[] spriteList;
     public GameObject backButton;
     //public Sprite ;
 
@@ -49,7 +49,7 @@ public class Object : MonoBehaviour
     private void bookshelf()
     {
        ObjectImage.enabled =true;
-       ObjectImage.sprite =bookshelfImage;
+       ObjectImage.sprite = spriteList[0];
        backButton.SetActive(true);
 
     }
