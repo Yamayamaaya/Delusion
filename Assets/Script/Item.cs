@@ -56,6 +56,6 @@ public class Item : MonoBehaviour
             int index = (int)item;
             Debug.Log(index);
             ItemBox.instance.SetItem(index);
-       
+    
     }
 }

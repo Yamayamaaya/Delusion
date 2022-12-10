@@ -41,8 +41,8 @@ public class ItemBox : MonoBehaviour
 
     public void ReloadBox()
     {
-        int a = 0; int b = 7;int c = 0;
-        while (a <= b)
+        int a = 0;int c = 0;
+        while (a <= 7)
         {
             if (boxs[a].activeSelf == false && boxs[a+1].activeSelf == true)
             {
