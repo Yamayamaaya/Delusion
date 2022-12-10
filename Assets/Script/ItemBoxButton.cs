@@ -36,21 +36,20 @@ public class ItemBoxButton : MonoBehaviour
         {
             case 0: Knife(); break;
             case 1: wateringCan(); break;
-            case 2: Key3(); break;
-            /* case 4: RoomManagers4(); break;
-            case 5: RoomManagers5(); break;
-            case 6: RoomManagers6(); break;
-            case 7: RoomManagers7(); break;
-            case 8: RoomManagers8(); break;
-            case 9: RoomManagers9(); break;
-            case 10: RoomManagers10(); break;
-            case 11: RoomManagers11(); break;
+            case 2: SuitKey(); break;
+            case 3: BreakerKey(); break;
+            case 4: illustration1(); break;
+            case 5: illustration2(); break;
+            case 6: illustration3(); break;
+            case 7: scissors(); break;
+            case 8: code(); break;
+            case 9: memo(); break;
+            /*case 11: RoomManagers11(); break;
             case 12: RoomManagers12(); break;
             case 13: RoomManagers13(); break;
             case 14: RoomManagers14(); break;
             case 15: RoomManagers15(); break;*/
             default: break;
-
 
         }
         
@@ -66,11 +65,50 @@ public class ItemBoxButton : MonoBehaviour
         ItemSelected.gameObject.GetComponent<Image>().sprite = image;
         Log1.SendFungusMessage("Item_1");
     }
-    private void Key3()
+    private void SuitKey()
     {
         ItemSelected.gameObject.GetComponent<Image>().sprite = image;
-        Log1.SendFungusMessage("Key3");
+        Log1.SendFungusMessage("Item_2");
+    }
+    private void BreakerKey()
+    {
+        ItemSelected.gameObject.GetComponent<Image>().sprite = image;
+        Log1.SendFungusMessage("Item_3");
+    }
+    private void illustration1()
+    {
+        ItemSelected.gameObject.GetComponent<Image>().sprite = image;
+        Log1.SendFungusMessage("Item_4");
     }
 
+    private void illustration2()
+    {
+        ItemSelected.gameObject.GetComponent<Image>().sprite = image;
+        Log1.SendFungusMessage("Item_5");
+    }
+    
+    private void illustration3()
+    {
+        ItemSelected.gameObject.GetComponent<Image>().sprite = image;
+        Log1.SendFungusMessage("Item_6");
+    }
+    
+    private void scissors()
+    {
+        ItemSelected.gameObject.GetComponent<Image>().sprite = image;
+        Log1.SendFungusMessage("Item_7");
+    }
+
+    private void code()
+    {
+        ItemSelected.gameObject.GetComponent<Image>().sprite = image;
+        Log1.SendFungusMessage("Item_8");
+    }
+
+    private void memo()
+    {
+        ItemSelected.gameObject.GetComponent<Image>().sprite = image;
+        Log1.SendFungusMessage("Item_9");
+    }
 
 }
