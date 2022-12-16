@@ -78,16 +78,8 @@ public class ItemBox : MonoBehaviour
         BoxNumber = BoxNumber + 1;
     }
     // アイテムが使えるかどうかを調べる（アイテムBoxに存在するか調べる）
-    public bool CanUseItem()
-    {
-        // 画像が表示されていれば使える
-        if (boxs[0].activeSelf == true)
-        {
-            return true;
-        }
-        return false;
-    }
-    public void DeleatItem(int ItemBoxNumber2)
+
+    public void DeleteItem(int ItemBoxNumber2)
     {
         int d = 0; int e = 7;
         while (d <= e)
@@ -112,13 +104,13 @@ public class ItemBox : MonoBehaviour
     public void OnItem6() { ItemBoxButton.instance.SelectItem(ItemInBox[6]);  }
     public void OnItem7() { ItemBoxButton.instance.SelectItem(ItemInBox[7]);  }
 
-    public void UsedItem0() { DeleatItem(0); }
-    public void UsedItem1() { DeleatItem(1); }
-    public void UsedItem2() { DeleatItem(2); }
-    public void UsedItem3() { DeleatItem(3); }
-    public void UsedItem4() { DeleatItem(4); }
-    public void UsedItem5() { DeleatItem(5); }
-    public void UsedItem6() { DeleatItem(6); }
-    public void UsedItem7() { DeleatItem(7); }
+    public void UsedItem0() { DeleteItem(0); }
+    public void UsedItem1() { DeleteItem(1); }
+    public void UsedItem2() { DeleteItem(2); }
+    public void UsedItem3() { DeleteItem(3); }
+    public void UsedItem4() { DeleteItem(4); }
+    public void UsedItem5() { DeleteItem(5); }
+    public void UsedItem6() { DeleteItem(6); }
+    public void UsedItem7() { DeleteItem(7); }
 }
     
