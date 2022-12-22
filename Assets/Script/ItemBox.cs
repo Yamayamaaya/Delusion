@@ -2,20 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Fungus;
 
 
 public class ItemBox : MonoBehaviour
 {
-    // Boxそれぞれの画像情報
     public GameObject[] boxs;
     public int[] ItemInBox;
-    // このクラスは他のどのファイルでも使いたい
-    // static化：どこからでも取得できるようにする
     public static ItemBox instance;
-    public Sprite DefSprite;
     public GameObject ItemBoxUI;
-    public AudioSource audioSource;
-    public AudioClip ItemSound;
+    public GameObject ItemSelected;
+    [SerializeField] Flowchart Log1;
 
     private int BoxNumber = 0;
     private void Awake()
@@ -28,97 +25,77 @@ public class ItemBox : MonoBehaviour
 
     private void Start()
     {
-        boxs[0].SetActive(false); ItemInBox[0] = 100;
-        boxs[1].SetActive(false); ItemInBox[1] = 100;
-        boxs[2].SetActive(false); ItemInBox[2] = 100;
-        boxs[3].SetActive(false); ItemInBox[3] = 100;
-        boxs[4].SetActive(false); ItemInBox[4] = 100;
-        boxs[5].SetActive(false); ItemInBox[5] = 100;
-        boxs[6].SetActive(false); ItemInBox[6] = 100;
-        boxs[7].SetActive(false); ItemInBox[7] = 100;
+        foreach(GameObject x in boxs)
+        {
+            x.SetActive(false);
+        }
 
     }
 
     public void ReloadBox()
     {
-        int a = 0; int b = 7;int c = 0;
-        while (a <= b)
+        int c = 0;
+        bool emptyBox = false; 
+        for(int a=0; a<=7; ++a)
         {
-            if (boxs[a].activeSelf == false && boxs[a+1].activeSelf == true)
+            if (emptyBox == true &&  boxs[a].activeSelf == true)
             {
-                boxs[a].SetActive(true);
-                boxs[a].gameObject.GetComponent<Image>().sprite = boxs[a+1].gameObject.GetComponent<Image>().sprite;
-                ItemInBox[a] = ItemInBox[a + 1];
-                boxs[a + 1].SetActive(false);
-                ItemInBox[a + 1] = 100;
+                boxs[a-1].SetActive(true);
+                boxs[a-1].gameObject.GetComponent<Image>().sprite = boxs[a].gameObject.GetComponent<Image>().sprite;
+                ItemInBox[a-1] = ItemInBox[a];
+                boxs[a].SetActive(false);
             }
 
-
+            emptyBox = true; 
             if (boxs[a].activeSelf == true)
             {
                 c = c + 1;
+                emptyBox = false; 
             }
-
-        a = a + 1;
 
         }
 
         BoxNumber = c + 1;
     }
+
+
     public void SetItem(int index1)
     {
         string indexstr = index1.ToString();
-        Sprite image = Resources.Load<Sprite>(indexstr);
-        boxs[BoxNumber].gameObject.GetComponent<Image>().sprite = image;
+        boxs[BoxNumber].gameObject.GetComponent<Image>().sprite = Resources.Load<Sprite>(indexstr);
         boxs[BoxNumber].SetActive(true);
         ItemInBox[BoxNumber] = index1;
         ItemBoxUI.SetActive(true);
-        ItemBoxButton.instance.SelectItem(index1);
-        audioSource.PlayOneShot(ItemSound);
+        SelectItem(index1);
         BoxNumber = BoxNumber + 1;
     }
-    // アイテムが使えるかどうかを調べる（アイテムBoxに存在するか調べる）
-    public bool CanUseItem()
+
+    public void SelectItem(int index)
     {
-        // 画像が表示されていれば使える
-        if (boxs[0].activeSelf == true)
-        {
-            return true;
-        }
-        return false;
+        string indexstr = index.ToString();
+        ItemSelected.gameObject.GetComponent<Image>().sprite = Resources.Load<Sprite>(indexstr);
+        Log1.SendFungusMessage("Item_" + indexstr);
     }
-    public void DeleatItem(int ItemBoxNumber2)
+
+
+    public void DeleteItem(int ItemBoxNumber2)
     {
-        int d = 0; int e = 7;
-        while (d <= e)
+        for(int d=0; d<=7; ++d)
         {
             if (ItemInBox[d] == ItemBoxNumber2)
             {
                 boxs[d].SetActive(false);
             }
-
-            d = d + 1;
-
         }
+        ItemSelected.SetActive(false);
 
     }
 
-    public void OnItem0() { ItemBoxButton.instance.SelectItem(ItemInBox[0]);  }
-    public void OnItem1() { ItemBoxButton.instance.SelectItem(ItemInBox[1]);  }
-    public void OnItem2() { ItemBoxButton.instance.SelectItem(ItemInBox[2]);  }
-    public void OnItem3() { ItemBoxButton.instance.SelectItem(ItemInBox[3]);  }
-    public void OnItem4() { ItemBoxButton.instance.SelectItem(ItemInBox[4]);  }
-    public void OnItem5() { ItemBoxButton.instance.SelectItem(ItemInBox[5]);  }
-    public void OnItem6() { ItemBoxButton.instance.SelectItem(ItemInBox[6]);  }
-    public void OnItem7() { ItemBoxButton.instance.SelectItem(ItemInBox[7]);  }
+    public void OnItem(int itemButtonNumber)
+    {
+        SelectItem(ItemInBox[itemButtonNumber]);  
+    }  
 
-    public void UsedItem0() { DeleatItem(0); }
-    public void UsedItem1() { DeleatItem(1); }
-    public void UsedItem2() { DeleatItem(2); }
-    public void UsedItem3() { DeleatItem(3); }
-    public void UsedItem4() { DeleatItem(4); }
-    public void UsedItem5() { DeleatItem(5); }
-    public void UsedItem6() { DeleatItem(6); }
-    public void UsedItem7() { DeleatItem(7); }
+
 }
     
