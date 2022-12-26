@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -9,6 +11,10 @@ public class UIManager : MonoBehaviour
     public GameObject SayDialog;
     public GameObject ManuDialog;
     public GameObject JoyStick;
+    [SerializeField]
+    private GameObject pause;
+    [SerializeField]
+    private GameObject _warningBox;
 
     // Start is called before the first frame update
     void Start()
@@ -52,5 +58,29 @@ public class UIManager : MonoBehaviour
         SelectingObjects.SetActive(false);
     }
 
+    public void Pause()
+    {
+        pause.SetActive(true);
+        JoyStick.SetActive(false);
+        Time.timeScale=0.0f;
+    }
+
+    public void Continue(){
+        pause.SetActive(false);
+        JoyStick.SetActive(true);
+        Time.timeScale=1.0f;
+    }
+
+    public void Warning(){
+        _warningBox.SetActive(true);
+    }
+
+    public void YesFunction(){
+        SceneManager.LoadScene("Title");
+        Time.timeScale=1.0f;
+    }
+    public void NoFunction(){
+        _warningBox.SetActive(false);
+    }
 
 }

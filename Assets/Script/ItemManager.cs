@@ -17,7 +17,7 @@ public class ItemManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Player.gameObject.transform.position.y);
+        //Debug.Log(Player.gameObject.transform.position.y);
         if(Player.gameObject.transform.position.y < 0 && HasWC == true){
             Item.itemCanUse[Item.ItemType.knife] = true;
         }
@@ -25,9 +25,15 @@ public class ItemManager : MonoBehaviour
             Item.itemCanUse[Item.ItemType.knife] = false;
         }
 
+        SuitKey();
+
     }
 
     public void GetWC(){
         HasWC = true;
+    }
+
+    private void SuitKey(){
+        
     }
 }

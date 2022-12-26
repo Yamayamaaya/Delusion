@@ -2,37 +2,33 @@ using UnityEngine;
 
 public class FlashlightRotate : MonoBehaviour
 {
-    private Transform _transform;
-
-    // 前フレームのワールド位置
-    private Vector3 _prevPosition;
-    Quaternion rotation;
+   public FloatingJoystick inputRotate; //右画面JoyStick
+   private Transform _transform;
+   Quaternion rotation;
 
     private void Start()
     {
-        _transform = transform;
 
-        _prevPosition = _transform.position;
     }
 
-    private void Update()
-    {
-        // 現在フレームのワールド位置
-        var position = _transform.position;
-
-        // 移動量を計算
-        var delta = position - _prevPosition;
-
-        // 次のUpdateで使うための前フレーム位置更新
-        _prevPosition = position;
-
-        // 静止している状態だと、進行方向を特定できないため回転しない
-        if (delta != Vector3.zero){
-            // 進行方向（移動量ベクトル）に向くようなクォータニオンを取得
-            rotation = Quaternion.FromToRotation(Vector3.up, delta);
-        }
-
-        // オブジェクトの回転に反映
-        _transform.rotation = rotation;
-    }
+    void Update()
+    {  
+       var h =inputRotate.Horizontal;
+       var v =inputRotate.Vertical;
+	
+        //ベクトル間の角度を取得
+       float degree = Mathf.Atan2(v,h)*Mathf.Rad2Deg;
+       //Debug.Log(degree);
+ 
+       if( -180 <= degree && degree< 0){
+           degree +=270;
+       }else if(  0< degree && degree<180){
+           degree -=90;
+       }
+ 
+       if (degree != 0){
+           // 変化があった時のみ角度を代入
+           transform.rotation = Quaternion.Euler(0f,0f,degree);
+       }
+   }
 }
