@@ -14,6 +14,7 @@ public class SelectObject : MonoBehaviour
         bookshelf,
         KeyBox,
         PasswordMemo,
+        OpenClothet,
     }
     public ObjectType objecttype; 
 

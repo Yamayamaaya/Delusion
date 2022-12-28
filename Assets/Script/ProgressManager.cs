@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ProgressManager : MonoBehaviour
 {
-
     public static int ProgressNumber;
     // Start is called before the first frame update
     void Start()
@@ -16,5 +15,9 @@ public class ProgressManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ProgressPlus(){
+        ProgressNumber +=1;
     }
 }

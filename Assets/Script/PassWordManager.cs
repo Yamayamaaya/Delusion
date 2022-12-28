@@ -14,7 +14,12 @@ public class PassWordManager : MonoBehaviour
     public Sprite[] sprites;
     public Image[] inputColums;
     private string connectPW;
-
+    public AudioClip sound1;
+    AudioSource audioSource;
+    [SerializeField]
+    private GameObject OpenKeyBox;
+    [SerializeField]
+    private GameObject CloseKeyBox;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +27,7 @@ public class PassWordManager : MonoBehaviour
             PASSWORD = 7563;
             Debug.Log(PASSWORD);
         }
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -52,12 +58,15 @@ public class PassWordManager : MonoBehaviour
             }
             int.TryParse(connectPW, out checkPW);
 
-            if(PASSWORD ==checkPW){
-                Debug.Log("clear");
-            }
-            else{
-                Debug.Log("wrong");
-            }
+        if(PASSWORD ==checkPW){
+            Debug.Log("clear");
+            audioSource.PlayOneShot(sound1);
+            CloseKeyBox.SetActive(false);
+            OpenKeyBox.SetActive(true);
+        }
+        else{
+            Debug.Log("wrong");
+        }
 
             connectPW = null;
         }
@@ -67,6 +76,9 @@ public class PassWordManager : MonoBehaviour
         for(int i =0; i<pwArray.Length; i++){
             inputColums[i].sprite =sprites[0];
             pwArray[i]=0;
+            pwColum=0;
         }
     }
+
+
 }

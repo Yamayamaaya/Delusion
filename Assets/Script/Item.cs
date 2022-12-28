@@ -30,7 +30,7 @@ public class Item : MonoBehaviour
         illustration3,
         scissors,
         code,
-        memo
+        cutCode,
     }
     public static Dictionary<ItemType, bool> itemCanUse = new Dictionary<ItemType, bool> ();
     public ItemType item;

@@ -51,14 +51,14 @@ TagManager:
   - name: FurnitureOver
     uniqueID: 1097275561
     locked: 0
-  - name: character
-    uniqueID: 1507213079
-    locked: 0
   - name: Controller
     uniqueID: 2550022655
     locked: 0
   - name: Item
     uniqueID: 662114467
+    locked: 0
+  - name: character
+    uniqueID: 1507213079
     locked: 0
   - name: UI
     uniqueID: 1315420435
