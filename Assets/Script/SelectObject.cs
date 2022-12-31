@@ -12,6 +12,9 @@ public class SelectObject : MonoBehaviour
     public enum ObjectType
     {
         bookshelf,
+        KeyBox,
+        PasswordMemo,
+        OpenClothet,
     }
     public ObjectType objecttype; 
 
@@ -25,5 +28,6 @@ public class SelectObject : MonoBehaviour
         int index = (int)objecttype;
         SelectedObjects[index].SetActive(true);
     }
+
 
 }

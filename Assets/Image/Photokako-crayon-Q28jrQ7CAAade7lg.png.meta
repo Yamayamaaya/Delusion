@@ -1,0 +1,982 @@
+fileFormatVersion: 2
+guid: fec13321c208c4700a5cd1b001ad62ff
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 37
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51101ea73d10442b3bcd8729af56afa2
+      internalID: 858139311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 24
+        width: 605
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2726ed52cef21469c8d5007228bd7b5e
+      internalID: 169827960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 636
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75eb3b8f09c104362848f714c2162d2e
+      internalID: -517185099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 632
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdc214163f0e41c1a8400efb7a6d28c
+      internalID: -1579706902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 636
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47f13a22f4cb4c39940ab42d831ee11
+      internalID: 164824537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 632
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aa00210d9564135b0b966271356016
+      internalID: 1161642769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 632
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8b4b9bbaf584994a009e11465d98ad
+      internalID: 2061962225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 631
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05eead40fe28344cda79d04d2c888ff4
+      internalID: 223362180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 632
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14867851dd3724200a01931e56ba766a
+      internalID: 1156859861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 636
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92409d5daf5704dca85de7e9dee7f7ee
+      internalID: -406284296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_10
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 631
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dbc5a9783a54e7fad06c18b41d59a8
+      internalID: 1321228065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 632
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4cfa7a50c26491f95eb0cb25a7911e
+      internalID: -1657303078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 632
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941be3902d5d14b14aee49b320d84470
+      internalID: 1785170065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 632
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1635b35aeb44d0d81308026aa8070c
+      internalID: -559883506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 632
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ad7409f9de24007bf5500384fe316b
+      internalID: -1444547605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_15
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 636
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c18ae1772918433199bc7bd9cd9544a
+      internalID: -595982892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_16
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 632
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0806b71c5805472086b165a5d74f620
+      internalID: -1870116062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 631
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e98cc09c65f549b1ba8b9462396d5ed
+      internalID: -13338915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_18
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 636
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a16ef2b8c7aa436c9c789e4394216ad
+      internalID: 645762595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_19
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 631
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec6ca28349c444f1a8e0d5c68f54d2b
+      internalID: 177403250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_20
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 636
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb17ad91c44a24e2d80644cc58689eca
+      internalID: 1885001452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_21
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 634
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e36d36ea4774ef7ade324a186287b5
+      internalID: -235961239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_22
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 631
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57039ac642b444419b4a6ce39f5b6b13
+      internalID: -641986639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_23
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 633
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0e22b2b35a743fc814b79e7e7b3e46
+      internalID: 1993632288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_24
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 632
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00a2d97426e84e5b8fdab4921607664
+      internalID: 568514402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_25
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 632
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dca5c03feba444fa320fd3b4cfbea9
+      internalID: -1619731030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_26
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 632
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9684c68597e3d4e56b22f18e644d83b4
+      internalID: -325402684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_27
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 636
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea43948f649e4bc9b4a5254cafff4f7
+      internalID: -1791294323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_28
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 632
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa320f33ff902466fbb79e2bf2a994a0
+      internalID: -428292639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_29
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 636
+        width: 31
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69931461cf14241b4b37e232a2763c19
+      internalID: -845422628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_30
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 630
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35768ece516ae475bb1eda5ef1e0c8d3
+      internalID: 2078725906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_31
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 0
+        width: 17
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43405d611f8ab4703b8a85da43d9c64a
+      internalID: -897523762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 49
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571d9e74ea800410db1f8582a4883ce0
+      internalID: -1632832292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_33
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2614205c3a6dc496fa0b32b72fd65af9
+      internalID: -653937072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_34
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 0
+        width: 30
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8ed55da287648188890a3f359d2344
+      internalID: -1338733932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_35
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e152a3b76d48646038e7078eb3aad48e
+      internalID: 26443468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_36
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5176cee3c5db54b30a9ad58d3852af09
+      internalID: 897543862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photokako-crayon-Q28jrQ7CAAade7lg_37
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 0
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d1f421b53614451ac6a0557252810d
+      internalID: 25755566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d3d663c9c818d4aeba55cf1f961724c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Photokako-crayon-Q28jrQ7CAAade7lg_5: 1161642769
+      Photokako-crayon-Q28jrQ7CAAade7lg_18: 645762595
+      Photokako-crayon-Q28jrQ7CAAade7lg_22: -641986639
+      Photokako-crayon-Q28jrQ7CAAade7lg_33: -653937072
+      Photokako-crayon-Q28jrQ7CAAade7lg_1: 169827960
+      Photokako-crayon-Q28jrQ7CAAade7lg_24: 568514402
+      Photokako-crayon-Q28jrQ7CAAade7lg_15: -595982892
+      Photokako-crayon-Q28jrQ7CAAade7lg_10: 1321228065
+      Photokako-crayon-Q28jrQ7CAAade7lg_36: 897543862
+      Photokako-crayon-Q28jrQ7CAAade7lg_34: -1338733932
+      Photokako-crayon-Q28jrQ7CAAade7lg_9: -406284296
+      Photokako-crayon-Q28jrQ7CAAade7lg_16: -1870116062
+      Photokako-crayon-Q28jrQ7CAAade7lg_8: 1156859861
+      Photokako-crayon-Q28jrQ7CAAade7lg_17: -13338915
+      Photokako-crayon-Q28jrQ7CAAade7lg_11: -1657303078
+      Photokako-crayon-Q28jrQ7CAAade7lg_12: 1785170065
+      Photokako-crayon-Q28jrQ7CAAade7lg_19: 177403250
+      Photokako-crayon-Q28jrQ7CAAade7lg_21: -235961239
+      Photokako-crayon-Q28jrQ7CAAade7lg_20: 1885001452
+      Photokako-crayon-Q28jrQ7CAAade7lg_23: 1993632288
+      Photokako-crayon-Q28jrQ7CAAade7lg_32: -1632832292
+      Photokako-crayon-Q28jrQ7CAAade7lg_31: -897523762
+      Photokako-crayon-Q28jrQ7CAAade7lg_29: -845422628
+      Photokako-crayon-Q28jrQ7CAAade7lg_27: -1791294323
+      Photokako-crayon-Q28jrQ7CAAade7lg_25: -1619731030
+      Photokako-crayon-Q28jrQ7CAAade7lg_4: 164824537
+      Photokako-crayon-Q28jrQ7CAAade7lg_30: 2078725906
+      Photokako-crayon-Q28jrQ7CAAade7lg_6: 2061962225
+      Photokako-crayon-Q28jrQ7CAAade7lg_2: -517185099
+      Photokako-crayon-Q28jrQ7CAAade7lg_7: 223362180
+      Photokako-crayon-Q28jrQ7CAAade7lg_13: -559883506
+      Photokako-crayon-Q28jrQ7CAAade7lg_37: 25755566
+      Photokako-crayon-Q28jrQ7CAAade7lg_35: 26443468
+      Photokako-crayon-Q28jrQ7CAAade7lg_14: -1444547605
+      Photokako-crayon-Q28jrQ7CAAade7lg_0: 858139311
+      Photokako-crayon-Q28jrQ7CAAade7lg_28: -428292639
+      Photokako-crayon-Q28jrQ7CAAade7lg_26: -325402684
+      Photokako-crayon-Q28jrQ7CAAade7lg_3: -1579706902
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
